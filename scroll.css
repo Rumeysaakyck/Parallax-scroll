@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.bg{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img-1{
+    background-image: url(img1.jpg);
+    height: 100vh;
+}
+.img-2{
+    background-image: url(img2.jpg);
+    height: 50vh;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.container .border{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.caption{
+    background-color: white(147, 147, 255);
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin: 70px 50px;
+}
